@@ -32,7 +32,7 @@ export default function Header() {
           </div>
         </div>
       </div> */}
-      <div className="w-full absolute flex gap-3 max-w-[85%] mx-auto top-7 self-center z-50 text-xl">
+      <div className="absolute flex gap-3 w-max mx-auto top-7 self-center z-50 text-xl">
         {/* header left section start */}
         <div className="flex flex-col items-center gap-2">
           {/* content of left icon of header start */}
@@ -57,7 +57,7 @@ export default function Header() {
           <div className="h-full overflow-hidden rounded-full w-full z-0 absolute top-0 left-0 backdrop-blur-lg"></div>
           {/* blur end */}
           {/* main content of header start */}
-          <div className="w-full relative z-[1] rounded-full bg-header-bg flex items-center  justify-around h-full ">
+          <div className="w-full relative z-[1] rounded-full bg-header-bg flex items-center gap-14 px-12 justify-around h-full ">
             {/* product */}
             <div className="relative group">  
               {/* main content */}
@@ -69,7 +69,7 @@ export default function Header() {
                 </div>
               </div>
               {/* menu content */}
-              <div className="absolute overflow-hidden group-hover:opacity-100 group-hover:visible invisible  delay-200 group-hover:delay-0 opacity-0 transition-all duration-300  bg-header-bg p-5 top-[calc(100%+15px)]  w-max rounded-xl">
+              <div className="absolute overflow-hidden backdrop-blur-lg group-hover:opacity-100 group-hover:visible invisible  delay-200 group-hover:delay-0 opacity-0 transition-all duration-300  bg-header-bg p-5 top-[calc(100%+15px)]  w-max rounded-xl">
                 {/* <div className="h-full overflow-hidden w-full z-[1] absolute top-0 left-0 backdrop-blur-lg"></div> */}
                 {/*  main content */}
                 <div className="relative z-[2] flex flex-col gap-3 ">
@@ -93,7 +93,7 @@ export default function Header() {
                 </div>
               </div>
               {/* menu content */}
-              <div className="absolute overflow-hidden bg-header-bg p-5 top-[calc(100%+20px)] w-max rounded-xl group-hover:visible invisible transition-all duration-300 delay-200 group-hover:delay-0 group-hover:opacity-100 opacity-0">
+              <div className="absolute backdrop-blur-lg overflow-hidden bg-header-bg p-5 top-[calc(100%+20px)] w-max rounded-xl group-hover:visible invisible transition-all duration-300 delay-200 group-hover:delay-0 group-hover:opacity-100 opacity-0">
                 {/*  main content */}
                 <div className="relative z-[1] flex flex-col gap-3">
                   <div className="">
