@@ -24,8 +24,8 @@ export default function Kid1() {
                         </div>
                     </div>
                 </div>
-                <div className="rounded-[35px] py-10 bg-white w-max ">
-                    <img src="./img/Home/kid1.png" alt="" />
+                <div className="rounded-[35px] py-10 bg-white w-max overflow-hidden">
+                    <img src="./img/Home/kid1.png" className='hover:scale-105 transition-all duration-300' alt="" />
                 </div>
             </div>
         </>

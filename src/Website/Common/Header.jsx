@@ -139,7 +139,7 @@ export default function Header() {
           {/* content of left icon of header start */}
           <div className="size-24 relative bg-header-bg overflow-hidden flex justify-center items-center rounded-full">
             <div className="relative z-[1]">
-              <img src="./img/Kitchy 1.svg" alt="" />
+              <img src="./img/Kitchy 1.svg" className='dog-face' alt="" />
             </div>
             {/* blur the left icon bg start  */}
             <div className="size-24 z-0 absolute top-0 left-0 backdrop-blur-lg"></div>
