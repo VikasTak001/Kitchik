@@ -50,8 +50,16 @@ export default function Educators2() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-[#3ECDC7] text-white capitalize w-max mx-auto my-8 text-lg font-semibold px-12 py-4 rounded-full">
+                {/* <div className="bg-[#3ECDC7] text-white capitalize w-max mx-auto my-8 text-lg font-semibold px-12 py-4 rounded-full">
                     learn more
+                </div> */}
+                <div class="button-container-3">
+                    <span class="mas capitalize">
+                    learn more
+                    </span>
+                    <button type="button" className='capitalize ' name="Hover">
+                    learn more
+                    </button>
                 </div>
             </div>
         </>
