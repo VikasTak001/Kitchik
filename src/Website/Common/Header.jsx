@@ -32,7 +32,7 @@ export default function Header() {
           </div>
         </div>
       </div> */}
-      <div className="absolute flex gap-3 w-max mx-auto top-7 max-w-[1275px] self-center z-50 text-xl">
+      <div className="absolute flex gap-3 w-max mx-auto top-7 max-w-[1300px] self-center z-50 text-xl">
         {/* header left section start */}
         <div className="flex flex-col items-center gap-2">
           {/* content of left icon of header start */}
