@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 export default function Kid1() {
     return (
         <>
-            <div className="bg-[#fff2e3] flex items-center justify-center border-[white] border-[15px] mb-14 rounded-[55px] px-10 py-20 max-w-[1575px] mt-[-15vh] mx-5 xl:mx-auto">
+            <div className="bg-[#fff2e3] flex items-center justify-center border-[white] border-[15px] mb-14 rounded-[55px] px-10 py-20 max-w-[1575px] mt-[-17vh] mx-5 xl:mx-auto">
                 <div className="w-1/2 flex flex-col justify-center">
                     <div className="font-bold text-6xl">
                         Kitchik Kids

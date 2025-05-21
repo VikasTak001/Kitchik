@@ -18,7 +18,7 @@ export default function HomeHero() {
           </div>
         </div>
       </div> */}
-      <div className="w-full  pb-[500px] pt-[250px] flex flex-col items-center bg-[url('../img/herobgg.png')] bg-cover bg-[center_center]">
+      <div className="w-full  pb-[350px] pt-[250px] flex flex-col items-center bg-[url('../img/herobgg.png')] bg-cover bg-[center_center]">
         <div className="font-bold xs:text-xl text-lg w-max">
           Welcome to Kitchik Learning
         </div>

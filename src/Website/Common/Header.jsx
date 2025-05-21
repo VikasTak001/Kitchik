@@ -136,9 +136,9 @@ export default function Header() {
         </div>
         {/* header mid section end */}
         {/* mobile mid(menu) section start */}
-        <div className={`rounded-tr-[50px] z-[2] py-5 absolute w-max ${showMenu?"visiable opacity-100":"invisiable opacity-0"} transition-all duration-300 rounded-xl 1/2xl:hidden pr- right-0  backdrop-blur-lg bg-blur bg-header-bg`}>
+        <div className={`rounded-tr-[50px] z-[2] py-5 absolute w-max ${showMenu?"visiable opacity-100":"invisiable opacity-0"} transition-all duration-300 rounded-xl 1/2xl:hidden right-0  backdrop-blur-lg bg-blur bg-header-bg`}>
           {/* main content of header start */}
-          <div className="w-full relative z-[1] flex flex-col  gap-14 px-12 justify-around ">
+          <div className="w-full relative z-[1] flex flex-col  gap-14 xs:px-12 xxs:px-5 px-2 justify-around ">
             {/* product */}
             <div className="relative group">
               {/* main content */}
@@ -150,7 +150,7 @@ export default function Header() {
                 </div>
               </div>
               {/* menu content */}
-              <div className=" z-[99] ml-20 group-hover:mt-5  overflow-hidden group-hover:opacity-100 group-hover:visible invisible  delay-200 group-hover:delay-0 group-hover:h-max h-0 opacity-0 transition-all duration-300 top-[calc(100%+15px)]  w-max rounded-xl">
+              <div className=" z-[99] xxs:ml-20 ml-14 group-hover:mt-5  overflow-hidden group-hover:opacity-100 group-hover:visible invisible  delay-200 group-hover:delay-0 group-hover:h-max h-0 opacity-0 transition-all duration-300 top-[calc(100%+15px)]  w-max rounded-xl">
                 {/* <div className="h-full overflow-hidden w-full z-[1] absolute top-0 left-0 backdrop-blur-lg"></div> */}
                 {/*  main content */}
                 <div className="relative z-[2] flex flex-col gap-3 ">
@@ -174,7 +174,7 @@ export default function Header() {
                 </div>
               </div>
               {/* menu content */}
-              <div className="z-[99] ml-20 group-hover:mt-5 overflow-hidden group-hover:opacity-100 group-hover:visible invisible  delay-200 group-hover:delay-0 group-hover:h-max h-0 opacity-0 transition-all duration-300 top-[calc(100%+15px)]  w-max rounded-xl">
+              <div className="z-[99] xxs:ml-20 ml-14 group-hover:mt-5 overflow-hidden group-hover:opacity-100 group-hover:visible invisible  delay-200 group-hover:delay-0 group-hover:h-max h-0 opacity-0 transition-all duration-300 top-[calc(100%+15px)]  w-max rounded-xl">
                 {/*  main content */}
                 <div className="relative z-[1] flex flex-col gap-3">
                   <div className="">
