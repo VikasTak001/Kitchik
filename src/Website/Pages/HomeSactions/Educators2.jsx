@@ -3,7 +3,7 @@ import React from 'react'
 export default function Educators2() {
     return (
         <>
-            <div className="max-w-[1375px] text-center mx-auto">
+            <div className="max-w-[1375px] text-center 1/2xl:mx-auto mx-5">
                 <div className="font-bold text-6xl">
                     Kitchik for Educators
                 </div>

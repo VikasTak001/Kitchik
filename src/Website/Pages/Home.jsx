@@ -3,6 +3,7 @@ import HomeHero from './HomeSactions/HomeHero'
 import Kid1 from './HomeSactions/Kid1'
 import Educators2 from './HomeSactions/Educators2'
 import LearnAbout3 from './HomeSactions/LearnAbout3'
+import KITCHIKPath4 from './HomeSactions/KITCHIKPath4'
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Kid1 />
             <Educators2 />
             <LearnAbout3 />
+            <KITCHIKPath4/>
         </div>
     )
 }

@@ -18,15 +18,15 @@ export default function HomeHero() {
           </div>
         </div>
       </div> */}
-      <div className="w-full h-[115vh] py-[9%] flex flex-col items-center bg-[url('../img/herobgg.png')] bg-cover bg-[center_center]">
-        <div className="font-bold text-xl w-max">
+      <div className="w-full  pb-[500px] pt-[250px] flex flex-col items-center bg-[url('../img/herobgg.png')] bg-cover bg-[center_center]">
+        <div className="font-bold xs:text-xl text-lg w-max">
           Welcome to Kitchik Learning
         </div>
-        <div className="font-bold text-7xl text-white text-center w-max">
+        <div className="font-bold xs:text-7xl text-5xl text-white text-center w-max">
           AI-ducation <br />
           for everyone
         </div>
-        <div className="font-semibold mt-5 text-center text-base">
+        <div className="font-semibold mt-5 text-center xs:text-base text-md">
           We believe every learner deserves a personalised learning <br />
           experience powered by educators' creativity and AI's intelligence.
         </div>
