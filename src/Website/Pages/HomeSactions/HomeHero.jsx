@@ -18,7 +18,7 @@ export default function HomeHero() {
           </div>
         </div>
       </div> */}
-      <div className="w-full h-[115vh] py-[9%] flex flex-col items-center bg-[url('../img/herobgg.png')] bg-cover bg-[center_center]">
+      <div className="w-full h-[115vh] py-[9%] flex flex-col items-center bg-[url('img/herobgg.png')] bg-cover bg-[center_center]">
         <div className="font-bold text-xl w-max">
           Welcome to Kitchik Learning
         </div>
@@ -30,16 +30,8 @@ export default function HomeHero() {
           We believe every learner deserves a personalised learning <br />
           experience powered by educators' creativity and AI's intelligence.
         </div>
-        {/* <div className="text-white py-4 px-20 font-bold mt-28 rounded-full bg-[#3ECDC7]">
+        <div className="text-white hover:scale-105 transition-all duration-300 py-4 px-20 font-bold mt-28 rounded-full bg-[#3ECDC7]">
           Download App
-        </div> */}
-        <div class="button-container-3">
-          <span class="mas">
-            Download App
-          </span>
-          <button type="button" name="Hover">
-            Download App
-          </button>
         </div>
       </div>
     </>

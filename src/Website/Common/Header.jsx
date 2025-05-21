@@ -38,7 +38,7 @@ export default function Header() {
           {/* content of left icon of header start */}
           <div className="size-24 relative bg-header-bg overflow-hidden flex justify-center items-center rounded-full">
             <div className="relative z-[1]">
-              <img src="./img/KitchikLogo-8 1.svg" alt="" />
+              <img src="./img/KitchikLogo-8 1.svg" width={90} className='rotate-animation' alt="" />
 
             </div>
             {/* blur the left icon bg start  */}
