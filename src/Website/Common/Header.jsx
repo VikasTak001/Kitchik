@@ -4,6 +4,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 export default function Header() {
   const [showMenu,setShowMenu]=useState(false);
+  
   return (
     <>
       {/* <div className="fixed w-[80vw] self-center top-7 rounded-[500px] bg-header-bg p-5 z-50 overflow-hidden">

@@ -24,7 +24,7 @@ export default function KITCHIKPath4() {
     }, [activeIndex]);
 
     return (
-        <div className="bg-[#F5E4FF] max-w-[1575px] border-[white] border-[15px] rounded-[55px] px-10 py-7 mb-96 mx-5 xl:mx-auto overflow-hidden">
+        <div className="bg-[#F5E4FF] max-w-[1575px] border-[white] border-[15px] rounded-[55px] px-10 py-7 relative z-10 mx-5 xl:mx-auto overflow-hidden">
             <div className="font-bold text-5xl max-w-max mx-auto">
                 The &nbsp;
                 <span className='text-[#3ECDC7]'>KITCHIK &nbsp;</span>
